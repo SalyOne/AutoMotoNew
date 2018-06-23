@@ -1,0 +1,55 @@
+/* demo colors*/
+.red {
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+     background-color: green;
+}
+.coral{
+    background-color: coral;
+}
+/*end demo colors*/
+
+body{
+    background-color: #eaeaea;
+    /*background-color:#bebebe;*/
+}
+/* section header style*/
+.section-header{
+    background-color: #ffffff;
+    box-shadow: 0 4px 7px rgba(0,0,0,0.14);
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 48px;
+
+    transform: translateY(-50%);
+    padding-top: 17px;
+    padding-bottom: 11px;
+}
+
+.container-fluid.no-section-header-padding .section-header,
+.container.no-section-header-padding .section-header{
+    position: absolute;
+}
+.section-header .title a{
+    color: #de6322;
+}
+.section-header .title a:hover{
+    text-decoration: none;
+}
+/* end section header style*/
+
+/*contact-section*/
+.contact {
+    background-color: yellow;
+
+}
+.contact .map-place{
+    width: 100%;
+    margin:0;
+    border: 0;
+    height: 300px;
+}
+/*end contact section*/
