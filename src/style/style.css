@@ -44,6 +44,24 @@ body{
 }
 /* end section header style*/
 
+
+
+
+/* section news   style */
+.news-content {
+  /* height: 540px; */
+}
+.news-content-box {
+  height: 270px;
+  /* background-image: url("../../img"); */
+}
+
+
+
+/* end section news  style */
+
+
+
 /*contact-section*/
 .contact {
 }
