@@ -28,7 +28,6 @@ body{
     padding-top: 17px;
     padding-bottom: 11px;
 }
-
 .container-fluid.no-section-header-padding .section-header,
 .container.no-section-header-padding .section-header{
     position: absolute;
