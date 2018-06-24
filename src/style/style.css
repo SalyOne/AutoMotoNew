@@ -48,7 +48,7 @@ body{
 
 
 
-/* section news   style */
+/* section news  */
 .news {
   position: relative;
 }
@@ -64,6 +64,39 @@ body{
 }
 .news-content-box {
   height: 270px;
+  position: relative;
+  color: #ffffff;
+  font-family: 'BPG Nino Mtavruli', sans-serif;
+
+}
+.news-content-box:hover .news-content-box-txt {
+  opacity: 1;
+}
+.news-content-box::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    transition: height 0.3s ease-out;
+    visibility: visible;
+    display: block;
+}
+.image-transparent {
+  background-image: linear-gradient(to bottom right, rgba(105,105,105, 0.2) 30% , 	rgba(255,99,71,  0.2) 70%);
+}
+.news-content-box-txt {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.news-content-box-txt h3 {
+  font-size: 24px;
 }
 .content-img-1 {
   background-image: url("../../img/news1.png");
@@ -89,7 +122,7 @@ body{
   background-image: url("../../img/news6.png");
   background-size: cover;
 }
-/* end section news  style */
+/* end section news  */
 
 
 
