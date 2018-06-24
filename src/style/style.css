@@ -83,6 +83,7 @@ body{
     visibility: visible;
     display: block;
 }
+
 .image-transparent {
   background-image: linear-gradient(to bottom right, rgba(105,105,105, 0.2) 30% , 	rgba(255,99,71,  0.2) 70%);
 }
