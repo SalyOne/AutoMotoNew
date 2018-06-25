@@ -151,6 +151,49 @@
 			<h3 class="title m-0"><a href="#">ფასდაკლება</a></h3>
 		</div>
 	</div>
+	<div class="owl-container mt-3">
+		<div class="row"
+			<div class="owl-carousel owl-theme">
+
+				<div class="item">
+					<div class="card">
+						<img src="img/sale1.png" alt="owl image" class="card-img-top">
+							<div class="card-body">
+								<h3>დასახელება</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="card">
+						<img src="img/sale2.png" alt="owl image" class="card-img-top">
+							<div class="card-body">
+								<h3>დასახელება</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="card">
+						<img src="img/sale3.png" alt="owl image" class="card-img-top">
+							<div class="card-body">
+								<h3>დასახელება</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="card">
+						<img src="img/sale4.png" alt="owl image" class="card-img-top">
+							<div class="card-body">
+								<h3>დასახელება</h3>
+							</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </section>
 
 
@@ -178,6 +221,24 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 <script src="src/script/script.js"></script>
 <script src="src/script/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+			0:{
+					items:1
+			},
+			600:{
+					items:3
+			},
+			1000:{
+					items:5
+			}
+	}
+})
+</script>
 
 </body>
 </html>
